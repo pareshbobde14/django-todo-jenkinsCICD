@@ -1,8 +1,5 @@
 FROM python:3
 
-RUN mkdir /projects
-RUN cd /projects
-
 RUN pip install django
 
 COPY . .
